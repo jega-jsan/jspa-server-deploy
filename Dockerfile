@@ -1,4 +1,4 @@
 # Sample 1 
 # FROM kornkitti/express-hello-world
-
-FROM ghcr.io/jega-jsan/jspa-server-deploy
+# DOCKER_BUILDKIT=1 docker build --secret id=FILENAME,src=LOCAL_FILENAME ...
+# FROM registry.gitlab.com/jsansoftwares/jspa/api-server-deploy:latest
